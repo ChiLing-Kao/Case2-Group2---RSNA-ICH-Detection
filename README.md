@@ -33,8 +33,8 @@ The data is in the **raw_data** folder and **data_preprocessing** folder. F
 * 5_ROI+noblank+CLAHE
 * 6_ROI+noblank+CLAHE+Bilateral
 
-### IV. Step1. Image Preprocessing - Step1_Image_Preprocessing.py**
+### IV. Step1. Image Preprocessing - Step1_Image_Preprocessing.py
 * The file contain 5 image preprocessing method - Dicom to png, ROI, CLAHE, Without white Margin, Bilateral Filtering.
 
-### V. Step2. EfficientNet Model - Step2_EfficientNet_Model.ipynb**
+### V. Step2. EfficientNet Model - Step2_EfficientNet_Model.ipynb
 * Use EfficientNet B7 to train the model and output the result.
