@@ -24,14 +24,13 @@ $ pip install -r requirements.txt
 ### IV. Dataset
 The data is in the **raw_data** folder and **data_preprocessing** folder. F
 ###### **A. raw_data** : There are **TrainingData** and **TestingData**. In **TrainingData**, the images split into 6 categories folders with 15 images respectively. In **TestingData**, there are 15 images. The images are all in DICOM form.
-###### **B. data_preprocessing** : There are 7 folders which are used in 7 different image preprocessing. The images are all in PNG form and are 20 images respectively.
+###### **B. data_preprocessing** : There are 6 folders which are used in 6 different image preprocessing. The images are all in PNG form and are 20 images respectively.
 * 0_Dicom2PNG
 * 1_ROI
 * 2_ROI+CLAHE
-* 3_ROI+CLAHE+Bilateral
-* 4_ROI+noblank
-* 5_ROI+noblank+CLAHE
-* 6_ROI+noblank+CLAHE+Bilateral
+* 3_ROI+noblank
+* 4_ROI+noblank+CLAHE
+* 5_ROI+noblank+CLAHE+Bilateral
 
 ### IV. Step1. Image Preprocessing - Step1_Image_Preprocessing.py
 * The file contain 5 image preprocessing method - Dicom to png, ROI, CLAHE, Without white Margin, Bilateral Filtering.
